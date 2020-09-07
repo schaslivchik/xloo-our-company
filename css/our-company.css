@@ -1,0 +1,12 @@
+.section-our-company {
+  position: relative;
+}
+.section-our-company::before {
+  content: '';
+  width: 226px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0;
+  background: url(../images/our_company_dots_bg.png) center center no-repeat;
+}
