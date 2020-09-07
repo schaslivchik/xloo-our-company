@@ -3,7 +3,7 @@ var myFullpage = new fullpage('#fullpage', {
   //Навигация
   menu: '#menu',
   lockAnchors: false,
-  anchors: ['WeAreXloo', 'WhatWeDo', 'Development', 'HowWeDoIt', 'WhyChooseUs', 'OurWorks', 'TrustedBy', 'Footer'],
+  anchors: ['WelcomeToXloo', 'ExperiencedExperts', 'Development', 'HowWeDoIt', 'WhyChooseUs', 'OurWorks', 'TrustedBy', 'Footer'],
   navigation: true,
   navigationPosition: 'right',
   navigationTooltips: [],
@@ -97,35 +97,6 @@ var myFullpage = new fullpage('#fullpage', {
 
 });
 
-
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-
-  loop: true,
-  dots: false,
-  autoplay: false,
-  autoplayTimeout: 0,
-  autoplayHoverPause: true,
-  responsiveClass: true,
-  lazyLoad: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    768: {
-      items: 4,
-    },
-    991: {
-      items: 5,
-    },
-    1366: {
-      items: 5,
-    },
-    1536: {
-      items: 4
-    }
-  }
-});
 
 
 $('.tiltBox').hover(
