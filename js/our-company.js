@@ -1,3 +1,4 @@
+
 var myFullpage = new fullpage('#fullpage', {
   licenseKey: '13AD7F77-A47C4568-AB432005-993C74FE',
   //Навигация
@@ -98,7 +99,6 @@ var myFullpage = new fullpage('#fullpage', {
 });
 
 
-
 $('.tiltBox').hover(
   function () { $(this).addClass('tiltZindex') },
   function () { $(this).removeClass('tiltZindex') }
@@ -152,6 +152,8 @@ $(document).ready(function () {
     $("#filename").val(filename);
   });
 })
+
+
 
 
 
