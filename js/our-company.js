@@ -66,7 +66,7 @@ var myFullpage = new fullpage('#fullpage', {
   //события
   onLeave: function (origin, destination, direction) {
     var numberBlock = destination.index;
-    if (numberBlock == '0' || numberBlock == '1') {
+    if (numberBlock == '0' || numberBlock == '1' || numberBlock == '2') {
       $('.xloo-nav').addClass('white-block')
 
     }
