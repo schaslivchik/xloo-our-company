@@ -19,7 +19,7 @@ body {
   background: #ffffff;
 }
 .xloo-block-secondary {
-  margin:120px 0;
+  padding:120px 0;
 }
 .section-our-company {
   position: relative;
@@ -101,6 +101,42 @@ body {
 }
 .expertise-expert-block {
   margin-top: -10px;
+}
+
+/**
+*   style carousel
+*/
+.title-carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ico-trigger {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: #212529;
+}
+.ico-trigger:before {
+  content: '';
+  height: 20px;
+  width: 2px;
+  background: #212529;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+}
+.collapsed + .ico-trigger:before {
+  opacity: 1;
+}
+.title-carousel-item .btn {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 
