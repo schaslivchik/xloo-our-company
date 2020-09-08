@@ -176,13 +176,17 @@ body {
 
 .common-mission-block {
   height: 500px;
-  padding: 30px;
+  margin-top: -50px;
+  padding: 50px 38px;
   background: url(../images/bg-common-mission.png) center center no-repeat;
 }
 .common-mission-block-content {
   font-size: 20px;
   line-height: 34px;
   font-weight: 600;
+}
+.title-common-mission {
+  margin-bottom: 30px;
 }
 
 
