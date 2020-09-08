@@ -234,5 +234,109 @@ body {
   color: #93CB40;
   margin-bottom: 30px;
 }
-
-
+.map-block {
+  position: relative;
+  height: 494px;
+  width: 100%;
+}
+.map-block:before {
+  content: url(../images/map.png);
+  position: absolute;
+}
+.map-item {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.white-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  left:0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  z-index: 3;
+}
+.green-dot-sm {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: #93CB40;
+  opacity: 0.8;
+  left:0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  z-index: 2;
+  animation-name: smCircle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes smCircle {
+  0%   {
+     opacity: 0.8;
+  }
+  100% { 
+  
+    opacity: 0.2;
+  }
+}
+.green-dot-lg {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #93CB40;
+  opacity: 0.6;
+  left:0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  z-index: 1;
+  animation-name: lgCircle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes lgCircle {
+  0%   {
+    width: 48px;
+    height: 48px;
+    opacity: 0.6;
+  }
+  100% { 
+    width: 68px;
+    height: 68px;
+    opacity: 0;
+  }
+}
+.map-item-usa {
+  top: 250px;
+  left: 180px;
+}
+.map-item-canada {
+  top: 100px;
+  left: 150px;
+}
+.map-item-europe {
+  top: 80px;
+  left: 473px;
+}
+.map-item-sa {
+  top: 200px;
+  left: 460px;
+}
+.map-item-asia {
+  left: 680px;
+  top: 16px;
+}
