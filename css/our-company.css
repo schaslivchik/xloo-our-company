@@ -234,6 +234,9 @@ body {
   color: #93CB40;
   margin-bottom: 30px;
 }
+.wrap-map-block {
+  margin-bottom: 120px;
+}
 .map-block {
   position: relative;
   height: 494px;
@@ -339,4 +342,21 @@ body {
 .map-item-asia {
   left: 680px;
   top: 16px;
+}
+.wrap-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.block-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #2C3544;
+  height: 365px;
+  width: 360px;
+  padding: 35px;
+}
+.block-item-case-studio p{
+  letter-spacing: -0.2px;
 }
