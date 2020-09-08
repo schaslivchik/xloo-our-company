@@ -174,6 +174,10 @@ body {
   color: #93CB40;
 }
 
+.xloo-text-default {
+  color: #212529;
+}
+
 .common-mission-block {
   height: 500px;
   margin-top: -50px;
@@ -188,7 +192,30 @@ body {
 .title-common-mission {
   margin-bottom: 30px;
 }
-
+.cta-block {
+  background-color: #F4F5F8;
+}
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cta-content-title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.cta-content-subtitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.cta-content .btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
 
 
 
