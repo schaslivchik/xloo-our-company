@@ -15,9 +15,15 @@
   opacity: 0.7;
 }
 /* end main style*/
-
+body {
+  background: #ffffff;
+}
+.xloo-block-secondary {
+  margin:120px 0;
+}
 .section-our-company {
   position: relative;
+  margin-top: 96px;
 }
 .section-our-company::before {
   content: '';
