@@ -137,6 +137,34 @@ body {
   color: #212529;
   font-size: 20px;
   font-weight: 600;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+.btn-link-img {
+  width: 60px;
+  margin-right: 15px;
+}
+.title-carousel-item .btn:hover {
+  text-decoration: none;
+  color: #93CB40;
+}
+.title-carousel-item .btn:focus {
+  text-decoration: none;
+}
+.card-header {
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+.card-body {
+  font-size: 15px;
+  line-height: 28px;
+  opacity: 0.7;
+  text-align: justify;
+  padding: 15px 0;
+}
+.card {
+  border: none;
 }
 
 
