@@ -1,7 +1,7 @@
 /*main style*/
 .xloo-title-dark-text {
   font-size: 34px;
-  line-height: 48px;
+  line-height: 40px;
   font-weight: 600;
   color: #212529;
 }
@@ -104,9 +104,9 @@ body {
 }
 
 /**
-*   style carousel
+*   style accordion
 */
-.title-carousel-item {
+.title-accordion-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,7 +133,7 @@ body {
 .collapsed + .ico-trigger:before {
   opacity: 1;
 }
-.title-carousel-item .btn {
+.title-accordion-item .btn {
   color: #212529;
   font-size: 20px;
   font-weight: 600;
@@ -145,11 +145,11 @@ body {
   width: 60px;
   margin-right: 15px;
 }
-.title-carousel-item .btn:hover {
+.title-accordion-item .btn:hover {
   text-decoration: none;
   color: #93CB40;
 }
-.title-carousel-item .btn:focus {
+.title-accordion-item .btn:focus {
   text-decoration: none;
 }
 .card-header {
@@ -166,6 +166,14 @@ body {
 .card {
   border: none;
 }
+/**
+*   end style accordion
+*/
+
+.xloo-text-primary {
+  color: #93CB40;
+}
+
 
 
 
