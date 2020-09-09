@@ -406,6 +406,7 @@ body {
 }
 .xloo-in-numbers-item {
   width: 340px;
+  padding:0 33px;
 }
 .xloo-number {
   font-size: 56px;
@@ -431,7 +432,7 @@ body {
 .title-xloo-in-numbers {
   position: relative;
   background-color: #2C3544;
-  padding: 30px 0;
+  padding: 30px 33px;
 }
 .title-xloo-in-numbers:before {
   content: '';
