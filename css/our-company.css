@@ -412,6 +412,9 @@ body {
   color: #93CB40;
   font-weight: 800;
 }
+.xloo-number span {
+  font-weight: 300;
+}
 .xloo-number-text {
   font-size: 16px;
   color: #ffffff;
