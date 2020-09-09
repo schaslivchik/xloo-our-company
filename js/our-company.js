@@ -56,6 +56,17 @@ $(document).ready(function () {
 
 })
 
+
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000,
+  offset: 100,
+  beginAt: 0,
+  formatter: function (n) {
+    return n.replace(/,/g, '.');
+  }
+});
+
 // $(window).scroll(function () {
 //   if ($(this).scrollTop() > $('.section-map').offset().top - 100) {
 //     $('.section-map').addClass('animation_map');

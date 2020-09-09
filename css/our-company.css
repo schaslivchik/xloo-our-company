@@ -425,6 +425,9 @@ body {
 .block-item-case-studio p{
   letter-spacing: -0.2px;
 }
+.xloo-number .counter {
+  font-weight: 800;
+}
 .container-number {
   margin-top: -23px;
 }
