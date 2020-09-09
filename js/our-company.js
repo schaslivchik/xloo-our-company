@@ -53,7 +53,14 @@ $(document).ready(function () {
     var filename = $(this).val().replace(/.*\\/, "");
     $("#filename").val(filename);
   });
+
 })
+
+// $(window).scroll(function () {
+//   if ($(this).scrollTop() > $('.section-map').offset().top - 100) {
+//     $('.section-map').addClass('animation_map');
+//   }
+// });
 
 
 

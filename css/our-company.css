@@ -314,17 +314,6 @@ body {
   z-index: 2;
   animation-name: smCircle;
 }
-@keyframes smCircle {
-  0%   {
-     opacity: 0.8;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% { 
-    opacity: 0.8;
-  }
-}
 .green-dot-lg {
   content: '';
   display: block;
@@ -341,6 +330,17 @@ body {
   margin: auto;
   z-index: 1;
   animation-name: lgCircle;
+}
+@keyframes smCircle {
+  0%   {
+     opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% { 
+    opacity: 0.8;
+  }
 }
 @keyframes lgCircle {
   0%   {
@@ -359,10 +359,29 @@ body {
     opacity: 0.6;
   }
 }
+.animation_map .green-dot-sm,
+.animation_map .green-dot-lg {
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
 .map-item:hover .green-dot-sm,
 .map-item:hover .green-dot-lg {
   animation-duration: 1s;
   animation-iteration-count: infinite;
+}
+.map-item:hover .map-item-country-name {
+  opacity: 1;
+}
+.map-item-country-name {
+  font-size: 18px;
+  color: #ffffff;
+  position: absolute;
+  left: 70px;
+  top: 17px;
+  width: max-content;
+  opacity: 0;
+  transition: 0.5s;
+  font-weight: 600;
 }
 .map-item-usa {
   top: 264px;
