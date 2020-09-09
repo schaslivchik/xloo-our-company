@@ -23,6 +23,7 @@ p {
 }
 .btn {
 font-size: 20px;
+font-weight: 600;
 }
 .btn.focus, .btn:focus {
   outline: 0;
