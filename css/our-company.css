@@ -1,3 +1,7 @@
+.xloo-link-active:not(:last-child):before {
+  width: calc(100% - 50px);
+  opacity: 1;
+}
 /*main style*/
 .xloo-title-dark-text {
   font-size: 34px;
