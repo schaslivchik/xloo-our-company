@@ -26,12 +26,12 @@ body {
   background: #ffffff;
 }
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 2px;
   height: 8px;
-  background-color: #ccc;
+  background-color: rgb(235, 235, 235);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #a8acaf;
+  background-color: #bcbec0;
   width: 2px;
   border-radius: 60px;
 }
@@ -142,10 +142,22 @@ body {
   justify-content: space-between;
 }
 .ico-trigger {
-  position: relative;
+  position: absolute;
   width: 20px;
   height: 2px;
   background: #212529;
+  right: 0;
+  z-index: 0;
+}
+.title-accordion-item .btn {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
 }
 .ico-trigger:before {
   content: '';
@@ -162,14 +174,6 @@ body {
 }
 .collapsed + .ico-trigger:before {
   opacity: 1;
-}
-.title-accordion-item .btn {
-  color: #212529;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 1px 0;
-  display: flex;
-  align-items: center;
 }
 .btn-link-img {
   width: 60px;
@@ -282,7 +286,6 @@ body {
   width: 100px;
   height: 100px;
 }
-
 .white-dot {
   position: absolute;
   width: 8px;
@@ -336,7 +339,6 @@ body {
   }
   100% { 
     opacity: 0.4;
-
   }
 }
 @keyframes lgCircle {

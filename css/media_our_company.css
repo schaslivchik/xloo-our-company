@@ -1,0 +1,116 @@
+
+@media (max-width: 1440px) {
+  .xloo-block-secondary .xloo-secondary-text {
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .xloo-title-dark-text {
+    font-size: 28px;
+  }
+  .img-70plus-block img{
+    width: 280px;
+  }
+  .our-company-team {
+    margin-bottom: 8px;
+  }
+  .our-company-team:before {
+    width: 526px;
+  }
+  .card-body {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .xloo-title-block-secondary {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .map-block {
+    height: 350px;
+  }
+  .map-block:before {
+    transform: scale(0.7);
+    left: -140px;
+    top: -60px;
+  }
+  .map-item-canada {
+    top: 102px;
+    left: 62px;
+  }
+  .map-item-usa {
+    top: 155px;
+    left: 98px;
+  }
+  .map-item-europe {
+    top: 123px;
+    left: 291px;
+  }
+  .map-item-sa {
+    top: 247px;
+    left: 283px;
+  }
+  .map-item-asia {
+    left: 425px;
+    bottom: 76px;
+  }
+  .xloo-in-numbers-item {
+    width: 280px;
+  }
+  .title-xloo-in-numbers img {
+    width: 200px;
+  }
+  .title-xloo-in-numbers:before {
+    height: 180px;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-70plus-block {
+    display: none;
+  }
+  .expertise-expert-block {
+    margin-bottom: 30px;
+  }
+  .our-company-team:before {
+    width: 605px;
+  }
+  .our-company-team {
+    margin-bottom: 20px;
+  }
+  .common-mission-block {
+    position: relative;
+    background-color: #f4f5f8;
+    height: inherit;
+    padding: 30px 0;
+    margin-bottom: 80px;
+  }
+
+  .common-mission-block:before {
+    content: '';
+    position: absolute;
+    width: 780px;
+    height: calc(100% + 60px);
+    background-color: #f4f5f8;
+    z-index: -1;
+    top: 0;
+    left: -45px;
+    bottom: 0;
+    margin: auto;
+  }
+  .common-mission-block::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 215px;
+    background-image: url(../images/puzzle.png);
+    z-index: 2;
+    top: -34px;
+    right: -46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .title-common-mission {
+    margin-bottom: 15px;
+  }
+}
